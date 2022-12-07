@@ -1,0 +1,3 @@
+export const PALAVRAS = ["ANGULAR","BOOTSTARP","HTML","JAVASCRIPT","VUE","SVELTE","REACT","CSS","BACKBONE","EMBER","AA"];
+
+export const TIMEOUTGAME = 20; // seconds

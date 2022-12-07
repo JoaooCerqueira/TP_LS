@@ -1,0 +1,94 @@
+.basic{
+    width: 80%;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 6px;
+    display: grid;
+    justify-content: center;
+    perspective: 1000px;
+    user-select: none;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.medium{
+    width: 80%;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 6px;
+    display: grid;
+    justify-content: center;
+    perspective: 1000px;
+    user-select: none;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.advenced{
+    width: 80%;
+    min-width: 00px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 6px;
+    display: grid;
+    justify-content: center;
+    perspective: 1000px;
+    user-select: none;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}   
+
+
+#board {
+    width: 80%;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 6px;
+    display: grid;
+    justify-content: center;
+    perspective: 1000px;
+    user-select: none;
+}
+
+#words {
+    gap: 4px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 80px;
+}
+
+.flex-child {
+    flex: 2;
+}  
+
+.flex-child:first-child {
+    margin-right: 100px;
+} 
+
+.tile{
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    border: 1px solid burlywood;
+}
+
+.words{
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}

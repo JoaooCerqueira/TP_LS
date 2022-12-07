@@ -1,0 +1,32 @@
+.tile{
+
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 0px;
+    border: 1px solid rosybrown;
+}
+
+.click{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;;
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 136, 67);
+    padding: 0px;
+    border: 1px solid rosybrown;
+}
+
+.found{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    border: 1px solid rosybrown;
+}
